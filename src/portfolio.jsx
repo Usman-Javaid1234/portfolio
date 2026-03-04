@@ -301,6 +301,7 @@ const styles = `
     background: radial-gradient(circle at top left, var(--accent-dim), transparent 60%);
     opacity: 0;
     transition: opacity 0.3s;
+     pointer-events: none;
   }
   .project-card:hover { border-color: rgba(212,168,83,0.35); transform: translateY(-4px); }
   .project-card:hover::before { opacity: 1; }
@@ -339,6 +340,7 @@ const styles = `
   .project-links {
     display: flex;
     gap: 16px;
+     cursor: pointer;
   }
   .project-link {
     font-size: 11px;
@@ -649,7 +651,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project-links">
                   {p.links.map((l) => (
-                    <a className="project-link" href={l.href} key={l.label}>
+                    <a className="project-link" href={l.href} key={l.label} target="_blank" rel="noopener noreferrer">
                       <span>{l.label.replace(" →", "")}</span>
                       <span className="project-link-arrow">↗</span>
                     </a>
