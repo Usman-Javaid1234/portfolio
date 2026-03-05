@@ -478,14 +478,14 @@ const projects = [
     num: "01",
     title: "Kisaan Dost",
     desc: "Crop yield prediction platform for Pakistani farmers using Random Forest and LSTM models on satellite and climate data.",
-    tags: ["Python", "Random Forest", "LSTM", "Django", "Plotly"],
+    tags: ["Python", "Random Forest", "LSTM", "Streamlit", "Plotly"],
     links: [{ label: "GitHub →", href: "https://github.com/Usman-Javaid1234/Kissan-Dost" }, { label: "Live Demo →", href: "https://kissan-dost-ekjs3enydkymoze3lgkdzd.streamlit.app/" }],
   },
   {
     num: "02",
     title: "InterviewAI",
     desc: "AI-powered technical interview platform with real-time code evaluation, adaptive questioning, and voice agent integration.",
-    tags: ["Next.js", "Vapi", "FastAPI", "OpenAI", "JavaScript"],
+    tags: ["React", "Node.js","MongoDB", "Vapi", "Express.js", "OpenAI", "Typescript"],
     links: [{ label: "GitHub →", href: "https://github.com/Usman-Javaid1234/InterviewAICombined" }, { label: "Live Demo →", href: "https://interview-ai-client-nine.vercel.app" }],
   },
   {
@@ -498,7 +498,7 @@ const projects = [
 ];
 
 const stackGroups = [
-  { label: "AI / ML", chips: ["LangChain", "RAG", "PyTorch", "OpenAI", "LiveKit", "scikit-learn"] },
+  { label: "AI / ML", chips: ["LangChain", "RAG", , "OpenAI", "LiveKit"] },
   { label: "Backend", chips: ["FastAPI", "Django", "REST", "PostgreSQL"] },
   { label: "Frontend", chips: ["React", "Next.js", "JavaScript"] },
   { label: "Infrastructure", chips: ["Git", "Linux"] },
