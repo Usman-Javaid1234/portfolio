@@ -509,7 +509,7 @@ const experience = [
     period: "May 2025 — Present",
     company: "RAISC →",
     url: "https://raisc.org/",
-    role: "Full-Stack Engineer",
+    role: "Full-Stack AI Engineer",
     bullets: [
       "Built production RAG-based chatbots serving real users, with hybrid search and streaming output",
       "Developed voice agents using LiveKit with sub-300ms latency",
@@ -557,7 +557,7 @@ export default function Portfolio() {
 
       {/* HERO */}
       <div className="hero" style={{ position: "relative" }}>
-        <div className="hero-tag">// Full-Stack Engineer · Islamabad, PK</div>
+        <div className="hero-tag">// Full-Stack AI Engineer · Islamabad, PK</div>
         <h1 className="hero-name serif">
           Usman<br />
           <em>Javaid</em>
